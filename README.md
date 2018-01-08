@@ -179,7 +179,7 @@ Keep in mind that different marking types are not compatible. You can use just o
 #### Displaying sub title for date
 
 <kbd>
-  <img src="https://github.com/wix/react-native-calendars/blob/master/demo/sub-title.png?raw=true">
+  <img src="https://github.com/troyz/react-native-calendars/blob/master/demo/sub-title.png?raw=true">
 </kbd>
 
 ```javascript
