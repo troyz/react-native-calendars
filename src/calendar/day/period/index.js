@@ -192,11 +192,14 @@ class Day extends Component {
     if(this.props.subTitleForDate)
     {
       let subTitleText = this.props.subTitleForDate(this.props.date);
-      let subTitleStyle = {
-        fontSize: this.theme.textSubTitleFontSize,
-        color: this.theme.subTitleTextColor
-      };
-      subTitleView = <Text style={[this.style.subTitle, subTitleStyle]}>{subTitleText}</Text>;
+      if(subTitleText)
+      {
+        let subTitleStyle = {
+          fontSize: this.theme.textSubTitleFontSize,
+          color: this.theme.subTitleTextColor
+        };
+        subTitleView = <Text style={[this.style.subTitle, subTitleStyle]}>{subTitleText}</Text>;
+      }
     }
 
     return (
